@@ -1,0 +1,10 @@
+{
+    "dev": {},
+    "production": {},
+    "staging": {},
+    "case_data": {
+        "TC_01": {},
+        "TC_02": {},
+        "TC_03": {}
+    }
+}

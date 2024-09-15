@@ -11,7 +11,7 @@ const productionData = {
   title: 'Playwright practice site - Học automation test dành cho người chưa có căn bản lập trình'
 }
 
-test('test title - cach 1', async ({ page }) => {
+test('test title - cach 10', async ({ page }) => {
   const env = process.env.NGHIA;
 
   if (env === 'dev') {
@@ -28,7 +28,7 @@ test('test title - cach 1', async ({ page }) => {
 
 });
 
-test('test title - cach 2', async ({ page }) => {
+test('test title - cach 11', async ({ page }) => {
   let data;
   const env = process.env.NGHIA;
 
@@ -43,7 +43,7 @@ test('test title - cach 2', async ({ page }) => {
   await expect(page.locator("//h1[@class='blog-title']//a")).toHaveText(data.title);
 })
 
-test('@TC100 test title - cach 3', async ({ page , nghia }) => {
+test('@TC100 test title - cach 12', async ({ page }) => {
   let data;
   const env = process.env.NGHIA;
 
